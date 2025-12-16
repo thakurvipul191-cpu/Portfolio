@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vipul Thakur | Web Developer</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <!-- AOS Animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <div class="nav-div">
+        <div class="hamburger" onclick="toggleMenu()">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+        <div class="logo-div">
+            <img src="image/logo.jpg" alt="Vipul">
+        </div>
+
+        <div class="menu-div">
+            <ul class="nav flex-column">
+                <li class="icon"><a class="nav-link" href="#home"><i class="fa-solid fa-house"></i> Home</a></li>
+                <li><a class="nav-link" href="#about"><i class="fa-solid fa-user"></i> About</a></li>
+                <li><a class="nav-link" href="#resume"><i class="fa-solid fa-file"></i> Resume</a></li>
+                <li><a class="nav-link" href="#portfolio"><i class="fa-solid fa-address-card"></i> Portfolio</a></li>
+                <li><a class="nav-link" href="#services"><i class="fa-solid fa-server"></i> Services</a></li>
+                <li><a class="nav-link" href="#contact"><i class="fa-solid fa-id-badge"></i> Contact</a></li>
+            </ul>
+            <center><a href="cv/Vipul_Thakur_CV.pdf" download class="btn btn-outline-warning mt-3">
+                        Download CV
+                    </a>
+            </center>
+        </div>
+    </div>
+
+    <!-- HOME -->
+    <section id="home" class="home-div">
+        <div class="img-div">
+            <img src="image/vipulpic.jpeg" alt="Vipul">
+        </div>
+        <h1>Hi, I'm <span class="text-warning">Vipul Thakur</span></h1>
+        <p>A passionate web developer building modern, responsive and user-friendly websites.</p>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="about-div">
+        <div class="container">
+            <h1 data-aos="fade-up" class="section-title">
+                About <span class="text-warning">Me</span>
+            </h1>
+
+            <div class="about-content" data-aos="fade-up" data-aos-delay="100">
+                <div class="about-text">
+                    <p>
+                        I’m <span class="text-warning">Vipul Thakur</span>, an aspiring web developer passionate about building 
+                        <strong>modern, responsive, and user-friendly websites</strong>. I specialize in 
+                        <span class="highlight">HTML, CSS, JavaScript, Bootstrap, and jQuery</span>. 
+                        I love combining creativity and functionality to craft 
+                        <span class="highlight">clean UI/UX designs</span>.
+                    </p>
+                    <p>
+                        As an MCA student, I constantly explore new technologies, work on innovative projects, and strive to deliver 
+                        solutions that make a difference.
+                    </p>
+                </div>
+
+                <div class="about-stats">
+                    <div class="stat-box" data-aos="flip-left" data-aos-delay="200">
+                        <i class="fa-solid fa-code"></i>
+                        <h3>5+</h3>
+                        <p>Projects Completed</p>
+                    </div>
+                    <div class="stat-box" data-aos="flip-left" data-aos-delay="300">
+                        <i class="fa-solid fa-laptop-code"></i>
+                        <h3>3</h3>
+                        <p>Years of Learning</p>
+                    </div>
+                    <div class="stat-box" data-aos="flip-left" data-aos-delay="400">
+                        <i class="fa-solid fa-lightbulb"></i>
+                        <h3>Creativity</h3>
+                        <p>Innovative Solutions</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- RESUME -->
+    <section id="resume" class="resume-div">
+        <h1 data-aos="fade-up">Resume</h1>
+
+        <div class="resume-box" data-aos="fade-up">
+            <h3>Education</h3>
+            <ul>
+                <li>MCA – Himachal Pradesh University Regional Centre, Dharamshala</li>
+                <li>Bachelor's in Computer Applications</li>
+            </ul>
+
+            <h3>Skills</h3>
+            <p>HTML, CSS, JavaScript, Bootstrap, jQuery</p>
+        </div>
+    </section>
+
+    <!-- PORTFOLIO -->
+    <section id="portfolio" class="portfolio-div">
+        <h1 data-aos="fade-up">My Projects</h1>
+
+        <div class="row container m-auto">
+
+            <div class="col-md-4" data-aos="zoom-in">
+                <div class="project-card">
+                    <div class="icon">🍽️</div>
+                    <h3>Restaurant Website</h3>
+                    <p>Online booking, menu system, admin panel & reviews.</p>
+                </div>
+            </div>
+
+            <div class="col-md-4" data-aos="zoom-in">
+                <div class="project-card">
+                    <div class="icon">🚚</div>
+                    <h3>Transport Booking Website</h3>
+                    <p>Online truck booking, material ordering, pricing system & admin panel.</p>
+                </div>
+            </div>
+
+            <div class="col-md-4" data-aos="zoom-in">
+                <div class="project-card">
+                    <div class="icon">🏋️</div>
+                    <h3>Gym Website</h3>
+                    <p>Membership plans, classes, trainer section.</p>
+                </div>
+            </div>
+
+            <div class="col-md-4" data-aos="zoom-in">
+                <div class="project-card">
+                    <div class="icon">💻</div>
+                    <h3>Portfolio Website</h3>
+                    <p>Modern responsive personal portfolio.</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- SERVICES -->
+    <section id="services" class="service-div">
+        <h1 data-aos="fade-up">Services</h1>
+
+        <div class="service-container">
+
+            <div class="service-box" data-aos="flip-left">
+                <i class="fa-solid fa-code"></i>
+                <h3>Web Development</h3>
+                <p>Responsive and modern websites using latest tools.</p>
+            </div>
+
+            <div class="service-box" data-aos="flip-left">
+                <i class="fa-solid fa-mobile-screen"></i>
+                <h3>Responsive Design</h3>
+                <p>Mobile-friendly layouts with smooth UI/UX.</p>
+            </div>
+
+            <div class="service-box" data-aos="flip-left">
+                <i class="fa-solid fa-wand-magic-sparkles"></i>
+                <h3>UI/UX Enhancement</h3>
+                <p>Clean, attractive and user-friendly designs.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="contact-div">
+        <h1 data-aos="fade-up">Get In Touch</h1>
+
+        <div class="row container m-auto">
+
+            <div class="col-md-4" data-aos="fade-right">
+                <div class="contact-info">
+                    <h3>Contact Info</h3>
+                    <p><b>Location:</b> Kangra (H.P)</p>
+                    <p><b>Email:</b> thakurvipul191@gmail.com</p>
+                    <p><b>Mobile:</b> 8219167520</p>
+                </div>
+            </div>
+
+            <div class="col-md-8" data-aos="fade-left">
+                <form class="contact-form">
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Email Address" required>
+                    <textarea placeholder="Your Message" rows="5"></textarea>
+                    <button type="submit">Send Message</button>
+                </form>
+
+                <div id="formSuccess" class="alert alert-success d-none mt-3">
+                    Message sent successfully!
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- JS -->
+    <script src="script.js"></script>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>AOS.init();</script>
+    <script>
+        function toggleMenu() {
+            document.querySelector(".nav-div").classList.toggle("show");
+        }
+    </script>
+    <script>
+        /*
+        Robust active menu highlighter:
+        - Uses IntersectionObserver for reliability and performance
+        - Fallback: ensures last section is highlighted when scrolled to page bottom
+        - Adds smooth scroll when menu links are clicked
+        */
+
+        document.addEventListener("DOMContentLoaded", function () {
+        const sections = Array.from(document.querySelectorAll("section[id]"));
+        const navLinks = Array.from(document.querySelectorAll(".menu-div .nav-link"));
+
+        // Safety: if no sections or no nav links, exit
+        if (!sections.length || !navLinks.length) return;
+
+        // Helper: remove all active classes
+        function clearActive() {
+            navLinks.forEach(l => l.classList.remove("active"));
+        }
+
+        // Helper: activate link that matches section id
+        function activateById(id) {
+            clearActive();
+            const link = document.querySelector(`.menu-div .nav-link[href="#${id}"]`);
+            if (link) link.classList.add("active");
+        }
+
+        // IntersectionObserver callback
+        const ioCallback = (entries) => {
+            entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                // When a section intersects, mark it active
+                activateById(entry.target.id);
+            }
+            });
+        };
+
+        // Observer options:
+        // rootMargin moves the "activation window" up/down (adjust to taste)
+        const observerOptions = {
+            root: null,
+            rootMargin: "-20% 0px -40% 0px",
+            threshold: 0.15
+        };
+
+        const observer = new IntersectionObserver(ioCallback, observerOptions);
+        sections.forEach(sec => observer.observe(sec));
+
+        // FALLBACK: ensure last section's link becomes active at page bottom
+        function checkAtBottom() {
+            // Consider it bottom when scrolled within 8px of page end (adjust if needed)
+            if (window.innerHeight + window.scrollY >= document.body.offsetHeight - 8) {
+            const lastSection = sections[sections.length - 1];
+            if (lastSection) activateById(lastSection.id);
+            }
+        }
+
+        window.addEventListener("scroll", checkAtBottom, { passive: true });
+        window.addEventListener("resize", checkAtBottom);
+
+        // Smooth scroll for menu links (optional but nice)
+        navLinks.forEach(link => {
+            link.addEventListener("click", function (e) {
+            // default anchor preserved for accessibility; prevent to enable smooth behaviour
+            e.preventDefault();
+            const targetId = this.getAttribute("href").replace("#", "");
+            const target = document.getElementById(targetId);
+            if (target) {
+                // Close sidebar on mobile (if you use .nav-div.show)
+                const nav = document.querySelector(".nav-div");
+                if (nav && nav.classList.contains("show")) nav.classList.remove("show");
+
+                window.scrollTo({
+                top: target.offsetTop - 60, // offset (header height) — adjust if needed
+                behavior: "smooth"
+                });
+
+                // ensure the clicked link becomes active immediately
+                clearActive();
+                this.classList.add("active");
+            }
+            });
+        });
+
+        // Run initial check (in case page loaded scrolled down or at bottom)
+        checkAtBottom();
+        });
+    </script>
+</body>
+</html>

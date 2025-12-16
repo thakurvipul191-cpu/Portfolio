@@ -18,7 +18,7 @@ html, body {
 /* NAVBAR */
 .nav-div {
     width: 250px;
-    height: 710px;
+    min-height: 100vh;
     background: #1a1a1a;
     position: fixed;
     top: 0;
